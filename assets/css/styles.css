@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Manrope", sans-serif;
+}
+
+body {
+  background: #1f2632;
+  font-size: 1.75rem;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+  background: #323a49;
+  border-radius: 15px;
+  text-align: center;
+  color: #cee3e9;
+  width: 39.8%;
+  padding: 3rem 3rem 4rem 3rem;
+  margin: 9rem 0 0 0;
+  position: relative;
+}
+.card h1 {
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.28rem;
+  color: #52ffa8;
+}
+.card p {
+  font-weight: 800;
+  margin: 1.5rem 0 1.6rem 0;
+}
+.card .mobile-divider {
+  display: none;
+}
+.card button {
+  background: #52ffa8;
+  border-radius: 50%;
+  cursor: pointer;
+  border: 0;
+  padding: 1.3rem 1.3rem 1rem 1.3rem;
+  margin: 0 0 1px 0;
+  position: absolute;
+  left: 44%;
+  bottom: -10%;
+  transition: background 0.2s ease, box-shadow 0.2s ease;
+}
+.card button:hover {
+  background: #6bffb5;
+  box-shadow: 0 0 15px 1px #61ffb0;
+}
+.card button:active {
+  background: #329f69;
+  box-shadow: 0 0 12px 1px #33a36b;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: #3e52a3;
+}
+
+@media (max-width: 1300px) {
+  body {
+    padding: 0 1rem;
+  }
+
+  .card {
+    min-width: 355px;
+    padding: 3rem 1rem 4rem 1rem;
+  }
+  .card button {
+    background: #52ffa8;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 0;
+    padding: 1.3rem 1.3rem 1rem 1.3rem;
+    margin: 0 0 1px 0;
+    position: absolute;
+    left: 41%;
+    bottom: -8%;
+  }
+  .card .desktop-divider {
+    display: none;
+  }
+  .card .mobile-divider {
+    display: initial;
+  }
+}/*# sourceMappingURL=styles.css.map */
