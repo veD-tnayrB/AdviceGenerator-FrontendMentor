@@ -25,14 +25,14 @@ body {
 
 .card {
     background: $Dark-Grayish-Blue;
+    box-shadow: 0 1rem 15px 1px rgba(0, 0, 0, 0.068);
     border-radius: 15px;
     text-align: center;
     color: $Light-Cyan;
 
-    width: 39.8%;
+    width: 542px;
 
     padding: 3rem 3rem 4rem 3rem;
-    margin: 9rem 0 0 0;
 
     position: relative;
 
